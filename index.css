@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #3ce2b3;
+    color: mintcream;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    background-color: #333333;
+    color: honeydew;
+
+}
+
+.item {
+    padding: 1rem;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.leftbar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    width: 25%;
+}
+
+.other-details {
+    padding: 1rem;
+
+}
+
+.image {
+    display: flex;
+    background-color: lightgray;
+    padding: 1rem;
+    margin: 1rem;
+
+
+}
+
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 75%;
+}
+
+.blog-content {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #dcdcdc;
+    padding: 1rem;
+}
