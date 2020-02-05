@@ -6,11 +6,13 @@
     padding: 1rem;
 }
 
+
 .navbar {
     display: flex;
     align-items: flex-start;
     background-color: #333333;
     color: honeydew;
+
 
 }
 
@@ -28,7 +30,10 @@
     flex-direction: column;
     padding: 1rem;
     background-color: #f1f1f1;
-    width: 25%;
+
+    width:inherit;
+    flex:1;
+    flex-shrink:2;
 }
 
 .other-details {
@@ -49,7 +54,9 @@
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    width: 75%;
+   
+    flex:2;
+    flex-shrink:1;
 }
 
 .blog-content {
